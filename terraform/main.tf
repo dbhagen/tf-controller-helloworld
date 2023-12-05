@@ -3,11 +3,15 @@ terraform {
 }
 
 variable "subject" {
-   type = string
-   default = "tfctl-rc"
-   description = "Subject to hello"
+  type        = string
+  default     = "tfctl-rc"
+  description = "Subject to hello"
 }
 
 output "hello_world" {
   value = "hey hey ya, ${var.subject}!"
+}
+
+output "hello_world2" {
+  value = "hey hey hey ya, ${var.subject}!"
 }
