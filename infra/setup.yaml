@@ -19,6 +19,6 @@ spec:
   interval: 1m
   sourceRef:
     kind: GitRepository
-    name: helloworld-tf-folder
+    name: helloworld-tf
   writeOutputsToSecret:
     name: helloworld-outputs
